@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+
+    <!-- Linking font-awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking Swiper Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Header / Navigator-->
+    <header>
+        <nav class="navbar section-content ">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.png" alt="The Parisian Parlour" class="logo-img">
+                <h2 class="logo-text">The Parisian Parlour</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class ="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class ="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class ="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonals" class ="nav-link">Testimonals</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class ="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class ="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    
+
+    <main>
+        <!--Hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-detail">
+                    <h2 class="title">Best Café</h2>
+                    <h3 class="subtitle">Le café, c'est le soleil du matin! </h3>
+                    <p class="description">Welcome to the Parisian Parlour, where every cup is préparée avec soin.  
+                        Relax and enjoy the délicieux arôme of freshly brewed coffee. ☕</p>
+
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now!</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/Irish-Coffee2.jpg" alt="hero" class="hero-image">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About section -->
+
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">Bienvenue to The Parisian Parlour,
+                        Where everyday moments feel a little more chic. 
+                        We’re your cozy neighborhood café with a French twist—serving rich espresso, buttery croissants, and good vibes all day long.
+                        Whether you stop by for a quick café au lait or settle in with friends for petites douceurs, there's always a warm seat waiting for you. 
+                        C’est simple, c’est bon, c’est chez nous.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-meta"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu-->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/Pumpkin Spice Espresso Martini.jpg" alt="Pumpkin Spice Espresso Martini" class="menu-image">
+                        <h3 class="name">Espresso Cocktails</h3>
+                        <p class="text">From highland origins to golden crema,
+                            An espresso crafted with care,
+                             rich in aroma and steeped in quiet sophistication.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/Bruschetta.jpg" alt="Appetizer" class="menu-image">
+                        <h3 class="name">Appetizer</h3>
+                        <p class="text">An inviting prelude to your dining experience,
+                            Golden toast topped with fresh tomatoes, basil, and a drizzle of fine olive oil</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/Joue de boeuf bourguignon.jpg" alt="Full Course" class="menu-image">
+                        <h3 class="name">Full Course</h3>
+                        <p class="text">Indulge in the heart of French cuisine,
+                            Beef cheeks slowly braised in Burgundy, simmered to perfection with herbs and red wine.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/salad.jpg" alt="Salads" class="menu-image">
+                        <h3 class="name">Salads</h3>
+                        <p class="text">Fresh greens kissed by the sun,
+                            Goat cheese crumbles like clouds, drizzled with honey and olive oil — a simple, heavenly harmony</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/crossiant.jpg" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Velvety hot chocolate, smooth and comforting, paired with golden,
+                             flaky croissants — a warm embrace of French elegance in every sip and bite,
+                             perfect for any moment of indulgence</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/basque burnt cheesecake.jpg" alt="Desserts" class="menu-image">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Slow-baked in the Basque tradition,
+                             this delicately charred cheesecake marries rustic charm with modern indulgence,
+                              where velvet smoothness meets hand-crafted perfection</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/wine.jpg" alt="Wine" class="menu-image">
+                        <h3 class="name">Wine</h3>
+                        <p class="text">A glass of wine, deep and inviting,
+                            Each sip a journey through sun-drenched vineyards and earth’s embrace,
+                            A perfect balance of history and nature in every drop</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!--Testimonals section-->
+
+        <section class="testimonals-section" id="testimonals">
+            <h2 class="section-title">Testimonals</h2>
+            <div class="section-content">
+                <div class="slide-container swiper">
+                    <div class="slide-wrapper">
+                        <ul class="testimonals-list swiper-wrapper">
+                            <li class="testimonals swiper-slide">
+                                <img src="images/user1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Yanagi Akane</h3>
+                                <i class="feedback">A charming spot where every dish tells a story — rich flavors, warm ambiance, and impeccable service.
+                                     The Parisian Parlour gave us a shared memory worth reliving</i>
+                            </li>
+                            <li class="testimonals swiper-slide">
+                                <img src="images/user2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Kyosuke Hori</h3>
+                                <i class="feedback">From cocktails to the final spoon of dessert, each moment felt thoughtfully crafted.
+                                     A shared table, an unforgettable experience</i>
+                            </li>
+                            <li class="testimonals swiper-slide">
+                                <img src="images/user3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Kakeru Senguku</h3>
+                                <i class="feedback">A charming spot where every dish tells a story — rich flavors, warm ambiance, and impeccable service.
+                                     The Parisian Parlour gave us a shared memory worth reliving</i>
+                            </li>
+                            <li class="testimonals swiper-slide">
+                                <img src="images/user4.jpeg" alt="User" class="user-image">
+                                <h3 class="name">Sawada Honoka</h3>
+                                <i class="feedback">With each bite came silence — the kind that means “this is perfect.”
+                                    A table of five, thoroughly delighted from aperitif to final spoonful of cheesecake.</i>
+                            </li>
+                            <li class="testimonals swiper-slide">
+                                <img src="images/user5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Shu Iura</h3>
+                                <i class="feedback">A truly enchanting evening — from the gentle candlelight to the symphony of flavours on our plates.
+                                    Five of us came for a meal, but left with memories steeped in warmth and elegance.</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button
+                        swiper-button-prev"></div>
+                        <div class="swiper-slide-button
+                        swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Gallery section-->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gal1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gal2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gal3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gal4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gal5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gal6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+
+        <!--Contact Section-->
+        <section class="contact-us" id="contact">
+            <h2 class="section-title">Contact-Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Campsite Avenue, Bourbourn Street, French Quaters, CA 187627</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>info@TheParisianParlour.com</p>
+
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Monday - Friday: 9:30 AM - 5:30 PM </p>
+
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Saturday: 10:00 AM - 3:00 PM</p>
+
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Sunday: Closed  </p>
+
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>7456213908</p>
+
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.parisianparlour.com</p>
+
+                    </li>
+                </ul>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your Name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" 
+                    required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Footer Section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 The Parisian Parlour</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-meta"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="seperator">.</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+
+
+            </div>
+        </footer>
+    </main>
+    <!-- Linking Swipper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Linking Custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
